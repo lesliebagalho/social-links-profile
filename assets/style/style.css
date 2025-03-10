@@ -69,6 +69,17 @@ img{
     margin-bottom: 15px;
     border-radius: 10px;
     cursor: pointer;
+
+    a{
+        color: var(--white);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--green);
+        text-decoration: none;
+        transition: ease 0.5s;
+    }
 }
 
 @media screen and (min-width: 1440px) {
